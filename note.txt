@@ -25,5 +25,21 @@ git reset --soft HEAD^ : soft reset 1 time, HEAD~n means n times
 git push -f : differnet edition, forced to push to github
 
 git config --global alias.xx status or 'branch -avv' : xx to substitude status, use '' if there is -m or -avv like
+ 
+git branch branchName : make a new branch
+
+git checkout branchName : switch to branch
+ 
+git checkout -b branchName : make and switch to a branch
+
+git push origin dev:dev : push dev1(local) to dev2(glabol), origin is host
+
+git branch -u origin/dev : track remote dev in local branch, and push immediatly
+
+git branch --unset-upstream : cancil track
+
+git push origin :remoteDev : delete remote dev, by push empty dev to it
+
+git branch -D branchName : delete local branch when not in the branch
 
 
