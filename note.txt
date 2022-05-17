@@ -1,0 +1,11 @@
+note
+rm -rf filename: remove a folder
+ssh-keygen: generate a ssh key
+git add filename : add to temp
+git add . : add all to temp
+git status : track
+git diff : change check
+git diff --cached : change check all
+git reset -- filename : reset temp file
+git reset --: reset all
+
