@@ -8,4 +8,19 @@ git diff : change check
 git diff --cached : change check all
 git reset -- filename : reset temp file
 git reset --: reset all
+git log : update log
+
+change the email and username in .gitconfig
+
+git commit : commit files in temp
+
+git commit -m "#comment"
+
+git branch -avv : monitor the commitment
+
+git push : push to github
+
+git reset --soft HEAD^ : soft reset 1 time, HEAD~n means n times
+
+git push -f : differnet edition, forced to push to github
 
